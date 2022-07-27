@@ -1,0 +1,31 @@
+div {
+    margin: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg);
+}
+
+.master_div_style {
+    margin: auto;
+    background-color: #f3f3f3;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.button {
+    font-size: 1em;
+    background-color: #6ba2ce;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+
+#table {
+    float: right;
+}

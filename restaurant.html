@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="restaurant.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <!--Don't remove id="nav"-->
+    <section id="nav" class="menu">
+        <div class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">
+                <i id="icon" style="color: black;" class="fa fa-bars fa-3x"> <span
+                        style="color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">MENU</span></i>
+            </a>
+        </div>
+        <span id="menu_options" class="container">
+            <div>TACOS</div>
+            <div>BEERS</div>
+            <div>WINES</div>
+            <div>DESSERTS</div>
+            <div>RESERVATIONS</div>
+        </span>
+    </section>
+    <section class="container-1">
+        <figure class="main-pic">
+            <div class="main-picture"></div>
+        </figure>
+        <!-- <span style="text-align: left;">
+            <div class="cell"
+                style="padding: 8px 0px 8px 6px; width: 50%; position: relative; bottom: 225px; left: 50px; z-index: 2; font-size: large; font-weight: 900;">
+                Terry's Taco Joint
+            </div>
+            <div class="cell"
+                style="padding: 8px 0px 8px 6px; width: 40%; position: relative; bottom: 200px; left: 50px; z-index: 2; font-size: medium; font-weight: 900;">
+                Pretty Good Tacos!
+            </div>
+        </span> -->
+        <span class="displace desktop-cell">
+            <figure class="cell-1">
+                <div class="cell">
+                    <h1 style="margin: 0px;">$1.99</h1> <b>Tacos</b>
+                </div>
+            </figure>
+            <figure class="cell-2">
+                <div class="cell">
+                    <h1 style="margin: 0px;">$3.99</h1> <b>Kombucha</b>
+                </div>
+            </figure>
+        </span>
+    </section>
+    <section class="container displace">
+        <div class="white-cell">
+            <h1 style="margin: 0px;" class="emoji">🌮</h1>
+            <b>Tacos</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        </div>
+        <div class="white-cell">
+            <h1 style="margin: 0px;" class="emoji">🍺</h1>
+            <b>Beer</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        </div>
+        <div class="white-cell">
+            <h1 style="margin: 0px;" class="emoji">🍷</h1>
+            <b>Wine</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        </div>
+        <div class="white-cell">
+            <h1 style="margin: 0px;" class="emoji">🎵</h1>
+            <b>Music</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        </div>
+    </section>
+    <section class="container displace">
+        <div class="white-cell-long" style="padding: 31px;">
+            <p>
+                <img src="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png">
+            </p>
+            <span class="featured-taco">
+                <h2 style="text-align: left;">Featured Taco</h2>
+                <p>Slim Profile, easy to hold and loaded with cheese.</p>
+                <p>This is the one you have been waiting for.</p>
+                <div class="cell">
+                    Learn More →
+                </div>
+            </span>
+        </div>
+    </section>
+    <section class="displace">
+        <hr>
+        <h2 style="text-shadow: rgba(0, 0, 0, 0.07);">Pictures</h2>
+        <hr>
+    </section>
+    <section class="container displace-picture">
+        <img class="picture"
+            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+        <img class="picture"
+            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+        <img class="picture"
+            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+        <img class="picture"
+            src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+        <img class="picture"
+            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+        <img class="picture"
+            src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+    </section>
+</body>
+<script src="C:\Users\trent\projects\Beginning Websites\Conference\script.js"></script>
+
+</html>
